@@ -1,0 +1,25 @@
+.Dog {
+  padding-top: 35px;
+  transition: filter 500ms;
+}
+
+/* Disable grayscale on hover */
+.Dog:hover {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.Dog > h3 {
+  padding: 15px;
+}
+
+.Dog img {
+  width: 75%;
+  border-radius: 50%;
+  box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 10%);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
